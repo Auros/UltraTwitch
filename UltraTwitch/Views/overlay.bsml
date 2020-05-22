@@ -1,0 +1,18 @@
+﻿<bg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://monkeymanboy.github.io/BSML-Docs/ https://raw.githubusercontent.com/monkeymanboy/BSML-Docs/gh-pages/BSMLSchema.xsd">
+  <horizontal anchor-pos-x="-5" pad-left="7" child-control-height="true" child-align="MiddleLeft" size-delta-x="-20">
+    <grid cell-size-x="30" cell-size-y="7" spacing-x="1" spacing-y="1">
+      <button pref-width="30" pref-height="7" text="Toggle Handle" word-wrapping="false" on-click="toggled-handle"/>
+      <button pref-width="30" pref-height="7" text="Chat" word-wrapping="false" event-click="show-keyboard"/>
+      <button pref-width="30" pref-height="7" text="Onyx" word-wrapping="false" on-click="toggle-onyx-requests" stroke-color="grey" glow-color="grey"/>
+      <button pref-width="30" pref-height="7" text="Refresh Songs" word-wrapping="false"/>
+      <button pref-width="30" pref-height="7" text="View Count" word-wrapping="false"/>
+      <button pref-width="30" pref-height="7" text="Next Song" word-wrapping="false" stroke-color="grey" glow-color="grey"/>
+    </grid>
+    <vertical spacing="0" child-align="MiddleCenter">
+      <img src="https://avatars1.githubusercontent.com/u/41306347" pref-width="15" pref-height="15" preserve-aspect="true"/>
+      <text text="Ultra Twitch" bold="true" font-size="7" align="Center" />
+      <text text="v0.2.0" font-size="6" align="Center"/>
+    </vertical>
+  </horizontal>
+  <modal-keyboard show-event="show-keyboard" clickerino-offerino-closerino="true" on-enter="chatted"/>
+</bg>

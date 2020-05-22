@@ -1,0 +1,13 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/beat-saber-modding-group/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "Modject",
+  "name": "Modject",
+  "author": "Auros",
+  "version": "1.0.0",
+  "description": "An easy way for Beat Saber mods to use Zenject",
+  "gameVersion": "1.9.1",
+  "dependsOn": {
+
+  },
+  "features": []
+}

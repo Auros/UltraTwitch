@@ -1,0 +1,6 @@
+﻿<settings-container xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://monkeymanboy.github.io/BSML-Docs/ https://raw.githubusercontent.com/monkeymanboy/BSML-Docs/gh-pages/BSMLSchema.xsd">
+  <horizontal pref-width="90">
+    <text text="Ultra Twitch" bold="true" font-size="8" align="Center"/>
+  </horizontal>
+  <dropdown-list-setting text="Main Channel" value="current-channel" choices="active-channel"/>
+</settings-container>

@@ -1,0 +1,13 @@
+﻿{
+  "$schema": "https://raw.githubusercontent.com/beat-saber-modding-group/BSIPA-MetadataFileSchema/master/Schema.json",
+  "id": "UltraTwitch",
+  "name": "UltraTwitch",
+  "author": "Auros",
+  "version": "0.3.0",
+  "description": "Various Twitch related services for Beat Saber",
+  "gameVersion": "1.9.1",
+  "dependsOn": {
+
+  },
+  "features": []
+}
